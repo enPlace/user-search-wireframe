@@ -1,11 +1,12 @@
 body{
     margin: 0;
+    transition: all .4s ease;
     
 }
 
 .wrapper{
     
-    background-color: #9999;
+    /* background-color: #9999; */
     align-items: center;
     text-align: center;
     padding-top: 1%;
@@ -14,7 +15,7 @@ body{
 }
 
 form{
-    background-color: red;
+    
     margin: 1%;
     margin-top: 1%;
    
@@ -22,7 +23,8 @@ form{
 }
 input{
     width: 40%;
-   
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: calc(2*100vw/80)
 
 }
@@ -30,7 +32,7 @@ input{
 .user-results{
     background-color: white;
     margin: 0px auto;
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -45,21 +47,37 @@ input{
 .user-card{
     min-width:150px;
     min-height: 150px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 10px;
     border-radius: 20px;
-    
+    transition: all .4s ease;
+    background-color: rgb(224, 224, 200);
     
 }
 .user-card:hover{
-    width: 160px;
+ /*    width: 160px;
     height: 160px;
     margin: 0px;
     margin-left: 5px;
     margin-right: 5px;
-   margin-bottom: -5px;
+   margin-bottom: -5px; */
+   transform: scale(1.14);
+   transition: all .4s ease;
+   background-color: rgb(219, 219, 196);
    
 }
+
+
+.avatar{
+    border-radius: 50%;
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info{
+    margin: 5px;
+}
+
 
 @media screen and (min-width: 568px){
     nav ul{
