@@ -13,9 +13,13 @@ body{
     padding-bottom: 5%;
     
 }
+.search-bar{
 
-form{
+        text-align: center;
+        position: relative; 
     
+}
+form{
     margin: 1%;
     margin-top: 1%;
    
@@ -25,9 +29,18 @@ input{
     width: 40%;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: calc(2*100vw/80)
+    font-size: calc(2*100vw/80);
+    outline: none; 
+    background: url(loupe.png) no-repeat scroll;
+    background-position: 98%;
+    background-size: calc(2*100vw/80)
 
+
+    
 }
+
+
+
 
 .user-results{
     background-color: white;
@@ -63,7 +76,7 @@ input{
    margin-bottom: -5px; */
    transform: scale(1.14);
    transition: all .4s ease;
-   background-color: rgb(219, 219, 196);
+   background-color: rgb(241, 241, 217);
    
 }
 
