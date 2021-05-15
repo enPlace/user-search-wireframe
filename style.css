@@ -1,8 +1,6 @@
-
-
 body{
     margin: 0;
-    transition: all .4s ease;
+    
     font-family: sans-serif;
     
 }
@@ -32,11 +30,11 @@ input{
     width: 40%;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: calc(2*100vw/80);
+    font-size: 24px;;
     outline: none; 
     background: url(loupe.png) no-repeat scroll;
     background-position: 98%;
-    background-size: calc(2*100vw/80)
+    background-size: 20px;
 
 
     
@@ -71,7 +69,7 @@ input{
     position: relative;
     
 }
-.user-card:hover{
+.user-card:hover {
  /*    width: 160px;
     height: 160px;
     margin: 0px;
@@ -83,11 +81,27 @@ input{
    background-color: rgb(240, 240, 239);
    
 }
-
+.user-card:hover button{
+    background-color: rgb(240, 240, 239);
+    color: black;
+    transition: all .4s ease;
+}
 .close{
     position: absolute;
    right: 15px;
    top: 10px;
+}
+.close button{
+    border: none;
+    color: rgb(228, 228, 228);
+    background-color:rgb(228, 228, 228);
+    transition: all .4s ease;
+}
+.close button:hover{
+    cursor:pointer;
+    background-color:rgb(228, 228, 228)
+    
+   
 }
 .avatar{
     border-radius: 50%;
@@ -101,7 +115,7 @@ input{
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .user-card{
         width:125px;
         height: 125px;
@@ -117,8 +131,9 @@ input{
         width: 50px;
     }
     input{
-        font-size: 15px;
-        width: 60%;
+        font-size: 18px;
+        width: 55%;
+        background-size: 14px;
     }
 
 }
