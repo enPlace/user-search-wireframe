@@ -64,7 +64,7 @@ input{
     margin: 10px;
     border-radius: 20px;
     transition: all .4s ease;
-    background-color: rgb(224, 224, 200);
+    background-color: rgb(228, 228, 228);
     
 }
 .user-card:hover{
@@ -76,7 +76,7 @@ input{
    margin-bottom: -5px; */
    transform: scale(1.14);
    transition: all .4s ease;
-   background-color: rgb(241, 241, 217);
+   background-color: rgb(240, 240, 239);
    
 }
 
@@ -91,17 +91,3 @@ input{
     margin: 5px;
 }
 
-
-@media screen and (min-width: 568px){
-    nav ul{
-        display: flex;
-        
-        
-        
-    }
-    nav li{
-        flex-grow: 1;
-        
-    }
-
-}
